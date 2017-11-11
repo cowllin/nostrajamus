@@ -3305,7 +3305,7 @@
 /* Banner */
 
 	#banner {
-		background-color: #3498db;
+		background-color: white;
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
 		cursor: default;
@@ -3612,9 +3612,9 @@
 		-ms-align-items: stretch;
 		align-items: stretch;
 		-ms-flex-pack: end;
-		min-height: -webkit-calc(100vh - 4.25em);
+		/*min-height: -webkit-calc(100vh - 4.25em);
 		min-height: -moz-calc(100vh - 4.25em);
-		min-height: calc(100vh - 4.25em);
+		min-height: calc(100vh - 4.25em);*/
 		position: relative;
 	}
 
@@ -3715,7 +3715,7 @@
 			background-repeat: no-repeat;
 		}
 
-			.post .image img {
+			.post .image img video{
 				position: absolute;
 				top: 0;
 				right: 0;
@@ -3765,19 +3765,19 @@
 		}
 
 			.post.style1 input, .post.style1 select, .post.style1 textarea {
-				color: #1abc9c;
+				color: #F05355;
 			}
 
 			.post.style1 a {
-				color: #1abc9c;
+				color: #F05355;
 			}
 
 			.post.style1 strong, .post.style1 b {
-				color: #1abc9c;
+				color: #F05355;
 			}
 
 			.post.style1 h1, .post.style1 h2, .post.style1 h3, .post.style1 h4, .post.style1 h5, .post.style1 h6 {
-				color: #1abc9c;
+				color: #F05355;
 			}
 
 			.post.style1 blockquote {
